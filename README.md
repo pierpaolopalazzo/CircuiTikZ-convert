@@ -88,7 +88,7 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICE
 
 ## Credits
 
-- **CircuiTikZ Designer**: [CircuiTikZ Designer](https://www.circuitikz.com) è stato utilizzato per la progettazione dei circuiti LaTeX.
+- **CircuiTikZ Designer**: [CircuiTikZ Designer](https://circuit2tikz.tf.fau.de/designer/) è stato utilizzato per la progettazione dei circuiti LaTeX.
 - **CircuiTikZ**: Il pacchetto LaTeX [CircuiTikZ](https://www.ctan.org/pkg/circuitikz) è stato fondamentale per la creazione dei circuiti.
 
 ---
@@ -183,5 +183,5 @@ This project is distributed under the MIT License. See the [LICENSE](LICENSE) fi
 
 ## Credits
 
-- **CircuiTikZ Designer**: [CircuiTikZ Designer](https://www.circuitikz.com) was used for LaTeX circuit design.
+- **CircuiTikZ Designer**: [CircuiTikZ Designer](https://circuit2tikz.tf.fau.de/designer/) was used for LaTeX circuit design.
 - **CircuiTikZ**: The [CircuiTikZ](https://www.ctan.org/pkg/circuitikz) LaTeX package was essential for circuit creation. 
