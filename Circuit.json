@@ -1,0 +1,186 @@
+[
+    {
+        "type": "path",
+        "id": "path_american-voltage-source",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "end": {
+            "x": 0,
+            "y": -151.18
+        },
+        "label": {
+            "value": "V_s",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_european-current-source",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "end": {
+            "x": 226.77,
+            "y": -151.18
+        },
+        "label": {
+            "value": "I_s",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 0,
+            "y": -151.18
+        },
+        "label": {
+            "value": "N1",
+            "anchor": "default",
+            "position": "north",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_circ",
+        "position": {
+            "x": 0,
+            "y": -151.18
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 226.77,
+            "y": -151.18
+        },
+        "label": {
+            "value": "N2",
+            "anchor": "default",
+            "position": "north",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_circ",
+        "position": {
+            "x": 226.77,
+            "y": -151.18
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "end": {
+            "x": 0,
+            "y": 0
+        },
+        "label": {
+            "value": "R_1",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_cute-inductor",
+        "start": {
+            "x": 75.59,
+            "y": -151.18
+        },
+        "end": {
+            "x": 75.59,
+            "y": 0
+        },
+        "label": {
+            "value": "L_1",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_capacitor",
+        "start": {
+            "x": 151.18,
+            "y": -151.18
+        },
+        "end": {
+            "x": 151.18,
+            "y": 0
+        },
+        "label": {
+            "value": "C_1",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.77,
+                    "y": 0
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "node",
+        "id": "node_circ",
+        "position": {
+            "x": 75.59,
+            "y": 0
+        },
+        "label": {
+            "value": "N3",
+            "anchor": "default",
+            "position": "south",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_circ",
+        "position": {
+            "x": 151.18,
+            "y": 0
+        },
+        "label": {
+            "value": "N4",
+            "anchor": "default",
+            "position": "south",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 226.77,
+            "y": 0
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.77,
+                    "y": -151.18
+                },
+                "direction": "-|"
+            }
+        ]
+    }
+]

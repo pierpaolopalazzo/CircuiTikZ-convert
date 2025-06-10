@@ -1,0 +1,204 @@
+[
+    {
+        "type": "path",
+        "id": "path_battery",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "end": {
+            "x": 0,
+            "y": -151.18
+        },
+        "label": {
+            "value": "V_0 = 12\\,\\text{V}",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "end": {
+            "x": 151.18,
+            "y": -151.18
+        },
+        "label": {
+            "value": "R_1 = 2\\,\\text{k}\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "end": {
+            "x": 151.18,
+            "y": -151.18
+        },
+        "label": {
+            "value": "R_2 = 3\\,\\text{k}\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 151.18,
+            "y": -151.18
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.77,
+                    "y": -151.18
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 226.77,
+            "y": -151.18
+        },
+        "end": {
+            "x": 226.77,
+            "y": -75.59
+        },
+        "label": {
+            "value": "R_3 = 1\\,\\text{k}\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_european-current-source",
+        "start": {
+            "x": 226.77,
+            "y": -151.18
+        },
+        "end": {
+            "x": 226.77,
+            "y": -75.59
+        },
+        "label": {
+            "value": "",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.77,
+                    "y": 0
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 226.77,
+            "y": 0
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.77,
+                    "y": -75.59
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 226.77,
+            "y": -75.59
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 151.18,
+                    "y": -75.59
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 151.18,
+            "y": -75.59
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 151.18,
+                    "y": -151.18
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 75.59,
+            "y": -170.078
+        },
+        "label": {
+            "value": "Resistenze in parallelo",
+            "anchor": "default",
+            "position": "north",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 188.975,
+            "y": -113.385
+        },
+        "label": {
+            "value": "Resistenza in serie",
+            "anchor": "default",
+            "position": "north",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 245.668,
+            "y": -113.385
+        },
+        "label": {
+            "value": "Generatore di corrente",
+            "anchor": "default",
+            "position": "north",
+            "distance": "0.12cm"
+        }
+    }
+]

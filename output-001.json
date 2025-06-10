@@ -1,0 +1,92 @@
+[
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "label": {
+            "value": "A",
+            "anchor": "default",
+            "position": "default",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "end": {
+            "x": 151.18,
+            "y": -75.59
+        },
+        "label": {
+            "value": "R_{ab}",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": -75.59
+        },
+        "label": {
+            "value": "B",
+            "anchor": "default",
+            "position": "default",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 151.18,
+            "y": -75.59
+        },
+        "end": {
+            "x": 151.18,
+            "y": 75.59
+        },
+        "label": {
+            "value": "R_{bc}",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": 75.59
+        },
+        "label": {
+            "value": "C",
+            "anchor": "default",
+            "position": "default",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 151.18,
+            "y": 75.59
+        },
+        "end": {
+            "x": 0,
+            "y": 0
+        },
+        "label": {
+            "value": "R_{ac}",
+            "distance": "0.12cm"
+        }
+    }
+]

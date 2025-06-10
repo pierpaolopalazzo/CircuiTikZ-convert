@@ -1,0 +1,30 @@
+\begin{circuitikz}[american]
+    % Alimentazioni +/- Vcc
+    \draw (0,4) -- (0,5) node[above] {$+V_{CC}$};
+    \draw (0,0) -- (0,-1) node[below] {$-V_{CC}$};
+
+    % Op-Amp
+    \draw (2,3) node[op amp](OA){};
+
+    % Collegamenti al pin 7 (+Vcc)
+    \draw (OA.+) -- ++(0,1) coordinate(vccp) to[voltage source, l_=$+V_{CC}$] (vccp |- OA.-);
+
+    % Collegamenti al pin 4 (-Vcc)
+    \draw (OA.-) -- ++(0,-1) coordinate(vccl) to[voltage source, l_=$-V_{CC}$] (vccl |- OA.+);
+
+    % Segnale d'ingresso Vin
+    \draw (1,3) to[voltage source, l_=$V_{in}$] (1,1.5) -- (OA.-);
+
+    % Resistenza R1 tra uscita e pin non invertente
+    \draw (OA.out) -- ++(1,0) coordinate(vout) to[resistor, l_=$R_1$] (vout |- OA.+);
+    
+    % Resistenza R2 a massa
+    \draw (OA.+) -- ++(-1,0) coordinate(r2) to[resistor, l_=$R_2$] (r2 |- 0,0) -- (0,0);
+
+    % Uscita Vout
+    \draw (vout) -- ++(1,0) node[right]{$V_{out}$};
+
+    % Etichette dei nodi
+    \node at (1,2.5) [left] {Inverting input};
+    \node at (1,3.5) [left] {Non-inverting input};
+\end{circuitikz}

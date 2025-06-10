@@ -1,0 +1,23 @@
+\begin{circuitikz}[american]
+    % Posizioniamo i nodi principali
+    \draw (0,0) to[battery, l=$V_0 = 12\,\text{V}$] (0,4); % Generatore verticale a sinistra
+
+    % Resistori in parallelo tra 0,4 e 4,4
+    \draw (0,4) to[resistor, l=$R_1 = 2\,\text{k}\Omega$] (4,4);
+    \draw (0,4) to[resistor, l=$R_2 = 3\,\text{k}\Omega$] (4,4);
+
+    % Resistore in serie con generatore di corrente
+    \draw (4,4) -- (6,4) to[resistor, l=$R_3 = 1\,\text{k}\Omega$] (6,2);
+
+    % Generatore di corrente orizzontale
+    \draw (6,4) to[current source, l_=$I_0 = 2\,\text{mA}$] (6,2);
+
+    % Connessione a massa (GND)
+    \draw (0,0) -- (6,0) -- (6,2);
+    \draw (6,2) -- (4,2) -- (4,4);
+
+    % Etichette
+    \node at (2,4.5) {Resistenze in parallelo};
+    \node at (5,3) {Resistenza in serie};
+    \node at (6.5,3) {Generatore di corrente};
+\end{circuitikz}

@@ -1,0 +1,156 @@
+[
+    {
+        "type": "path",
+        "id": "path_american-voltage-source",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "end": {
+            "x": 0,
+            "y": -113.385
+        },
+        "label": {
+            "value": "V_{ideale}",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": -113.385
+        },
+        "end": {
+            "x": 113.385,
+            "y": -113.385
+        },
+        "label": {
+            "value": "R_i",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 113.385,
+            "y": -113.385
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 151.18,
+                    "y": -113.385
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": -113.385
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": -113.385
+        },
+        "label": {
+            "value": "\\small +",
+            "anchor": "default",
+            "position": "east",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 151.18,
+            "y": -113.385
+        },
+        "end": {
+            "x": 151.18,
+            "y": 0
+        },
+        "label": {
+            "value": "R",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": 0
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": 0
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 151.18,
+            "y": 0
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 0,
+                    "y": 0
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 151.18,
+            "y": 0
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 141.731,
+            "y": -122.834
+        },
+        "label": {
+            "value": "A",
+            "anchor": "default",
+            "position": "east",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ocirc",
+        "position": {
+            "x": 141.731,
+            "y": 9.449
+        },
+        "label": {
+            "value": "B",
+            "anchor": "default",
+            "position": "east",
+            "distance": "0.12cm"
+        }
+    }
+]

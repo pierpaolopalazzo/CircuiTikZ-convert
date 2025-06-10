@@ -1,0 +1,162 @@
+[
+    {
+        "type": "path",
+        "id": "path_american-voltage-source",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "end": {
+            "x": 0,
+            "y": 0
+        },
+        "label": {
+            "value": "E1 = 10V",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-voltage-source",
+        "start": {
+            "x": 264.565,
+            "y": -151.18
+        },
+        "end": {
+            "x": 264.565,
+            "y": 0
+        },
+        "label": {
+            "value": "E2 = 10V",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "end": {
+            "x": 75.59,
+            "y": -151.18
+        },
+        "label": {
+            "value": "R1 = 5\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 75.59,
+            "y": -151.18
+        },
+        "end": {
+            "x": 264.565,
+            "y": -151.18
+        },
+        "label": {
+            "value": "R5 = 20\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": 0
+        },
+        "end": {
+            "x": 75.59,
+            "y": 0
+        },
+        "label": {
+            "value": "R2 = 2\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 75.59,
+            "y": 0
+        },
+        "end": {
+            "x": 264.565,
+            "y": 0
+        },
+        "label": {
+            "value": "R4 = 20\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 75.59,
+            "y": -151.18
+        },
+        "end": {
+            "x": 75.59,
+            "y": 0
+        },
+        "label": {
+            "value": "R3 = 15\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 0,
+            "y": -151.18
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 0,
+                    "y": -188.975
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 0,
+            "y": -188.975
+        },
+        "end": {
+            "x": 264.565,
+            "y": -188.975
+        },
+        "label": {
+            "value": "R6 = 5\\Omega",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 264.565,
+            "y": -188.975
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 264.565,
+                    "y": -151.18
+                },
+                "direction": "-|"
+            }
+        ]
+    }
+]
